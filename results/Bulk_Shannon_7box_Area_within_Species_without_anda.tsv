@@ -1,7 +1,0 @@
-Species	.y.	group1	group2	p	p.adj	p.format	p.signif	method
-R. norvegicus	Shannon	Suburbs	Livestock	0.1090909090909091	0.16	0.1091	ns	Wilcoxon
-R. norvegicus	Shannon	Suburbs	City regions	0.001998001998001998	0.006	0.0020	**	Wilcoxon
-R. norvegicus	Shannon	Livestock	City regions	0.2742812742812743	0.27	0.2743	ns	Wilcoxon
-R. tanezumi	Shannon	Suburbs	Livestock	0.13752913752913754	0.17	0.1375	ns	Wilcoxon
-R. tanezumi	Shannon	Suburbs	City regions	4.995004995004995e-4	0.003	0.0005	**	Wilcoxon
-R. tanezumi	Shannon	Livestock	City regions	0.0030851501439736733	0.0062	0.0031	**	Wilcoxon
