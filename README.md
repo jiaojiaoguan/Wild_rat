@@ -53,7 +53,7 @@ Species + Area + Bacteria model reads the shared bacterial PCoA axes
 | `analyze_pi_drivers.R` | π drivers — nested type-II LM: `avg_pi ~ Species + Area` vs `+ MAG_pi` (bacterial MAG mean π), without R. andamanensis (n=46) | metadata, microdiversity CSVs, `MAGs_nucl_diversity_matrix.tsv` | console |
 | `plot_variance_partitioning.R` | Variance-partitioning barplot for π and Shannon (values hardcoded from the db-RDA / model fits) | none | `figures/variance_partitioning_pi.pdf/.png`, `figures/variance_partitioning_shannon.pdf/.png` |
 
-### 05_mediation
+### 05_mediation_analysis
 | Script | What it does | Inputs | Outputs |
 |---|---|---|---|
 | `run_all_mediation_pi.R` | Mediation: Species / Area → bacterial MAG π → viral π (10000 bootstrap, FDR) | `wild_rat_metadata.csv`, `MAGs_nucl_diversity_matrix.tsv`, `VLPs/bulk_global_sample_microdiversity.csv` | `results/mediation_pi_all_results.tsv` + console |
@@ -62,7 +62,7 @@ Species + Area + Bacteria model reads the shared bacterial PCoA axes
 | `plot_mediation_AMG_species.R` | Species mediation triangle (values hardcoded) | none | `figures/mediation_AMG_species.pdf/.png` |
 | `plot_mediation_AMG_area_3panel.R` | 3 Area-pair mediation triangles (values hardcoded) | none | `figures/mediation_AMG_area_3panel.pdf/.png` |
 
-### AMGs_lifestyle
+### 06_AMGs_lifestyle
 | Script | What it does | Inputs | Outputs |
 |---|---|---|---|
 | `plot_amg_diversity.R` | AMG alpha diversity (richness + Shannon) boxplots, temperate vs virulent, VLP + Bulk; paired Wilcoxon | `53vlp_AMG_diversity.tsv`, `53meta_AMG_diversity.tsv` | `figures/AMG_diversity_{VLP,Bulk}_{richness,shannon}.pdf` |
