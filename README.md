@@ -25,7 +25,7 @@ github_code/
 ### 01_alpha_diversity
 | Script | What it does | Inputs (in `data/`) | Outputs |
 |---|---|---|---|
-| `plot_shannon_7box_without_anda.R` | Shannon 7-group boxplot, VLPs + Bulk side by side; Kruskal–Wallis + pairwise Wilcoxon | `wild_rat_metadata.csv`, `VLPs_virus_alpha_diversity.tsv`, `bulk_virus_alpha_diversity.tsv` | `figures/shannon_7box_without_anda.pdf/.png` + 4 pairwise TSVs (`results/`) |
+| `plot_shannon.R` | Shannon boxplot, VLPs + Bulk side by side; Kruskal–Wallis + pairwise Wilcoxon | `wild_rat_metadata.csv`, `VLPs_virus_alpha_diversity.tsv`, `bulk_virus_alpha_diversity.tsv` | `figures/shannon_7box_without_anda.pdf/.png` + 4 pairwise TSVs (`results/`) |
 | `analyze_shannon_drivers.R` | Type-II nested linear models for viral Shannon: base `Shannon ~ Species + Area` vs. `+ Bac_Shannon` (MAG Shannon diversity) | `wild_rat_metadata.csv`, `VLPs_virus_alpha_diversity.tsv`, `bulk_virus_alpha_diversity.tsv`, `explanatory_variables.csv` | console |
 
 ### 02_beta_diversity
@@ -99,7 +99,7 @@ optional — scripts fall back to `commandArgs()`/`getwd()`).
 
 ```r
 # from RStudio: open a script and source it, or
-Rscript 01_alpha_diversity/plot_shannon_7box_without_anda.R
+Rscript 01_alpha_diversity/plot_shannon.R
 ```
 
 ## Note on model numbering
