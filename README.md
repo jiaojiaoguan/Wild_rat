@@ -49,7 +49,7 @@ Species + Area + Bacteria model reads the shared bacterial PCoA axes
 ### 04_microdiversity
 | Script | What it does | Inputs | Outputs |
 |---|---|---|---|
-| `plot_pi_7boxplot.R` | π 7-group boxplot, VLPs + Bulk | `wild_rat_metadata.csv`, `VLPs_global_sample_microdiversity.csv`, `bulk_global_sample_microdiversity.csv` | `figures/pi_by_species_area_7box.pdf/.png` + 4 pairwise TSVs (`results/`) |
+| `plot_pi.R` | π boxplot, VLPs + Bulk | `wild_rat_metadata.csv`, `VLPs_global_sample_microdiversity.csv`, `bulk_global_sample_microdiversity.csv` | `figures/pi_by_species_area_7box.pdf/.png` + 4 pairwise TSVs (`results/`) |
 | `analyze_pi_drivers.R` | π drivers — nested type-II LM: `avg_pi ~ Species + Area` vs `+ MAG_pi` (bacterial MAG mean π), without R. andamanensis (n=46) | metadata, microdiversity CSVs, `MAGs_nucl_diversity_matrix.tsv` | console |
 | `plot_variance_partitioning.R` | Variance-partitioning barplot for π and Shannon (values hardcoded from the db-RDA / model fits) | none | `figures/variance_partitioning_pi.pdf/.png`, `figures/variance_partitioning_shannon.pdf/.png` |
 
