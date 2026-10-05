@@ -1,6 +1,6 @@
 # Rat gut virome — paper analysis code
 
-R analysis scripts for the rat gut virome manuscript (VLP-enriched vs. Bulk
+R analysis scripts for the wild rat gut virome manuscript (VLP-enriched vs. Bulk
 metagenomes). All scripts read their direct input files from `data/` and write
 results to `results/`, figures to `figures/`, or the script's own folder.
 
@@ -19,19 +19,6 @@ github_code/
 ├── results/                        # table / intermediate outputs (created at runtime)
 └── README.md
 ```
-
-## Path convention
-
-Every script resolves its own location at the top and derives
-
-```r
-data_dir <- file.path(script_path, "..", "data")   # shared inputs
-fig_dir  <- file.path(script_path, "..", "figures")
-res_dir  <- file.path(script_path, "..", "results")
-```
-
-so the scripts run from any location (RStudio or `Rscript`) as long as the
-repo structure is intact.
 
 ## Scripts
 
