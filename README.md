@@ -1,4 +1,4 @@
-# Rat gut virome — paper analysis code
+# Wild rat gut virome R code for analysis
 
 R analysis scripts for the wild rat gut virome manuscript (VLP-enriched vs. Bulk
 metagenomes). All scripts read their direct input files from `data/` and write
