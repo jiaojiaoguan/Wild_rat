@@ -1,0 +1,4 @@
+Area_label	.y.	group1	group2	p	p.adj	p.format	p.signif	method
+City regions	Shannon	R. tanezumi	R. norvegicus	0.9705124596765464	0.97	0.97	ns	Wilcoxon
+Livestock	Shannon	R. tanezumi	R. norvegicus	0.23185703185703188	0.7	0.23	ns	Wilcoxon
+Suburbs	Shannon	R. tanezumi	R. norvegicus	0.7878787878787878	0.97	0.79	ns	Wilcoxon

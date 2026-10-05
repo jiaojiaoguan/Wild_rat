@@ -1,0 +1,89 @@
+sample_name,Species,Trap_distract,Trap_location,Trap_location_characteristic,Trap_date,Area,Age_stage,Sex,BW_g,Hepatic_parasite,Pregnancy
+Rat2,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,08_11_2022,City regions,Adult,Female,322,None,Pregnancy
+Rat4,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,08_11_2022,City regions,Adult,Female,261,Yes,None
+Rat5,Rattus_tanezumi,Kowloon_City,Small_alley,Non_wet_market,08_11_2022,City regions,Adult,Male,147,Yes,Male
+Rat8,Rattus_tanezumi,Kowloon_City,Small_alley,Non_wet_market,09_11_2022,City regions,Adult,Male,107,None,Male
+Rat10,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,10_11_2022,City regions,Subadult,Male,56,None,Male
+Rat12,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,10_11_2022,City regions,Subadult,Female,59,None,None
+Rat13,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,11_11_2022,City regions,Adult,Male,126,None,Male
+Rat16,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,15_11_2022,City regions,Adult,Male,165,None,Male
+Rat18,Rattus_tanezumi,Kowloon_City,Small_alley,Non_wet_market,16_11_2022,City regions,Adult,Female,128,Yes,Pregnancy
+Rat21,Rattus_norvegicus,Causeway_Bay,Small_alley,Non_wet_market,16_11_2022,City regions,Subadult,Male,119,None,Male
+Rat23,Rattus_tanezumi,Kowloon_City,Small_alley,Non_wet_market,18_11_2022,City regions,Adult,Female,123,None,None
+Rat24,Rattus_tanezumi,Kowloon_City,Small_alley,Non_wet_market,18_11_2022,City regions,Adult,Male,118,None,Male
+Rat25,Rattus_tanezumi,Kowloon_City,Small_alley,Non_wet_market,21_11_2022,City regions,Adult,Female,189,Yes,None
+Rat26,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,22_11_2022,City regions,Adult,Male,223,Yes,Male
+Rat29,Rattus_tanezumi,Kowloon_City,Small_alley,Non_wet_market,23_11_2022,City regions,Subadult,Male,24,None,Male
+Rat30,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,23_11_2022,City regions,Subadult,Male,74,Yes,Male
+Rat31,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,24_11_2022,City regions,Subadult,Female,48,None,None
+Rat32,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,24_11_2022,City regions,Adult,Female,215,Yes,Pregnancy
+Rat33,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,24_11_2022,City regions,Adult,Male,71,None,Male
+Rat34,Rattus_tanezumi,Kowloon_City,Small_alley,Non_wet_market,24_11_2022,City regions,Subadult,Female,16,None,None
+Rat35,Rattus_norvegicus,Causeway_Bay,Small_alley,Non_wet_market,24_11_2022,City regions,Adult,Female,106,Yes,None
+Rat36,Rattus_norvegicus,Causeway_Bay,Small_alley,Non_wet_market,24_11_2022,City regions,Adult,Female,211,Yes,Pregnancy
+Rat37,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,25_11_2022,City regions,Subadult,Male,92,Yes,Male
+Rat38,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,25_11_2022,City regions,Adult,Female,139,Yes,None
+Rat39,Rattus_tanezumi,Kowloon_City,Small_alley,Non_wet_market,25_11_2022,City regions,Subadult,Female,21,None,None
+Rat40,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,29_11_2022,City regions,Adult,Male,364,Yes,Male
+Rat41,Rattus_tanezumi,Kowloon_City,Small_alley,Non_wet_market,29_11_2022,City regions,Adult,Female,110,None,Pregnancy
+Rat42,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,29_11_2022,City regions,Adult,Female,109,Yes,None
+Rat45,Rattus_norvegicus,Kowloon_City,Small_alley,Non_wet_market,2_12_2022,City regions,Adult,Male,152,None,Male
+Rat46,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,14_12_2022,Livestock,Adult,Male,191,Yes,Male
+Rat47,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,14_12_2022,Livestock,Adult,Male,380,Yes,Male
+Rat48,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,15_12_2022,Livestock,Adult,Female,225,None,Pregnancy
+Rat49,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,16_12_2022,Livestock,Adult,Male,139,Yes,Male
+Rat50,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,17_12_2022,Livestock,Adult,Male,380,Yes,Male
+Rat51,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,18_12_2022,Livestock,Adult,Male,156,None,Male
+Rat52,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,20_12_2022,Livestock,Adult,Male,390,None,Male
+Rat55,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,23_12_2022,Livestock,Adult,Male,292,Yes,Male
+Rat56,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,23_12_2022,Livestock,Subadult,Female,97,Yes,None
+Rat57,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,28_12_2022,Livestock,Adult,Female,186,Yes,None
+Rat59,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,28_12_2022,Livestock,Adult,Male,303,Yes,Male
+Rat60,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,28_12_2022,Livestock,Adult,Male,341,Yes,Male
+Rat61,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,28_12_2022,Livestock,Adult,Male,305,Yes,Male
+Rat62,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,29_12_2022,Livestock,Adult,Male,286,Yes,Male
+Rat63,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,30_12_2022,Livestock,Adult,Male,272,Yes,Male
+Rat64,Rattus_norvegicus,Tai_Po,Chicken_farm,Chicken_farm,30_12_1022,Livestock,Adult,Female,205,Yes,None
+Rat120,Rattus_tanezumi,Yuen_Long,Pig_farm,Pig_farm,2_3_2021,Livestock,Adult,Female,92,Yes,Pregnancy
+Rat122,Rattus_tanezumi,Yuen_Long,Pig_farm,Pig_farm,5_3_2021,Livestock,Subadult,Female,23,None,None
+Rat123,Rattus_tanezumi,Yuen_Long,Pig_farm,Pig_farm,11_3_2021,Livestock,Subadult,Male,26,None,Male
+Rat124,Rattus_tanezumi,Yuen_Long,Pig_farm,Pig_farm,12_3_2021,Livestock,Adult,Male,96,None,Male
+Rat125,Rattus_tanezumi,Yuen_Long,Pig_farm,Pig_farm,12_3_2021,Livestock,Adult,Female,97,None,None
+Rat127,Rattus_tanezumi,Yuen_Long,Pig_farm,Pig_farm,16_3_2021,Livestock,Subadult,Male,23,None,Male
+Rat128,Rattus_tanezumi,Yuen_Long,Pig_farm,Pig_farm,16_3_2021,Livestock,Subadult,Male,18,None,Male
+Rat137,Rattus_norvegicus,Lo_Wu,Horse_riding_school,Horse_riding_school,30_3_2021,Suburbs,Subadult,Female,18,None,None
+Rat138,Rattus_andamanensis_(Rattus_tanezumi_sladeni),Lo_Wu,Horse_riding_school,Horse_riding_school,30_3_2021,Suburbs,Subadult,Male,18,None,Male
+Rat139,Rattus_andamanensis_(Rattus_tanezumi_sladeni),Lo_Wu,Horse_riding_school,Horse_riding_school,31_3_2021,Suburbs,Subadult,Male,21,None,Male
+Rat140,Rattus_andamanensis_(Rattus_tanezumi_sladeni),Lo_Wu,Horse_riding_school,Horse_riding_school,1_4_2021,Suburbs,Subadult,Female,19,None,None
+Rat141,Rattus_norvegicus,Lo_Wu,Horse_riding_school,Horse_riding_school,8_4_2021,Suburbs,Adult,Female,47,None,None
+Rat142,Rattus_norvegicus,Lo_Wu,Horse_riding_school,Horse_riding_school,9_4_2021,Suburbs,Adult,Female,52,None,None
+Rat143,Rattus_tanezumi,Lo_Wu,Horse_riding_school,Horse_riding_school,15_4_2021,Suburbs,Subadult,Male,27,None,Male
+Rat152,Rattus_norvegicus,Causeway_Bay,Small_alley,Non_wet_market,4_5_2021,City regions,Adult,Female,171,Yes,None
+Rat156,Rattus_norvegicus,Causeway_Bay,Small_alley,Wet_market,5_5_2021,City regions,Adult,Male,267,Yes,Male
+Rat157,Rattus_norvegicus,Causeway_Bay,Small_alley,Wet_market,5_5_2021,City regions,Adult,Female,100,Yes,None
+Rat161,Rattus_norvegicus,Causeway_Bay,Small_alley,Non_wet_market,6_5_2021,City regions,Adult,Male,350,Yes,Male
+Rat162,Rattus_norvegicus,Causeway_Bay,Small_alley,Wet_market,7_5_2021,City regions,Subadult,Female,113,Yes,None
+Rat166,Rattus_norvegicus,Causeway_Bay,Small_alley,Wet_market,11_5_2021,City regions,Adult,Female,249,Yes,Pregnancy
+Rat168,Rattus_norvegicus,Causeway_Bay,Small_alley,Non_wet_market,12_5_2021,City regions,Adult,Male,350,Yes,Male
+Rat172,Rattus_norvegicus,Causeway_Bay,Small_alley,Wet_market,14_5_2021,City regions,Adult,Female,165,Yes,None
+Rat179,Rattus_norvegicus,Causeway_Bay,Small_alley,Wet_market,21_5_2021,City regions,Adult,Male,191,Yes,Male
+Rat180,Rattus_norvegicus,Causeway_Bay,Small_alley,Non_wet_market,21_5_2021,City regions,Subadult,Female,40,Yes,None
+Rat181,Rattus_norvegicus,Sheung_Shui,Pig_farm,Pig_farm,25_5_2021,Livestock,Adult,Female,200,None,None
+Rat182,Rattus_norvegicus,Sheung_Shui,Pig_farm,Pig_farm,25_5_2021,Livestock,Adult,Female,179,None,None
+Rat186,Rattus_norvegicus,Sheung_Shui,Pig_farm,Pig_farm,1_6_2021,Livestock,Adult,Male,167,Yes,Male
+Rat187,Rattus_tanezumi,Sai_Kung,Horse_riding_school,Horse_riding_school,2_6_2021,Suburbs,Adult,Female,134,Yes,Pregnancy
+Rat189,Rattus_norvegicus,Sheung_Shui,Pig_farm,Pig_farm,2_6_2021,Livestock,Adult,Male,217,Yes,Male
+Rat190,Rattus_norvegicus,Sheung_Shui,Pig_farm,Pig_farm,3_6_2021,Livestock,Adult,Male,234,Yes,Male
+Rat192,Rattus_norvegicus,Sheung_Shui,Pig_farm,Pig_farm,4_6_2021,Livestock,Adult,Female,150,Yes,None
+Rat193,Rattus_norvegicus,Sheung_Shui,Pig_farm,Pig_farm,4_6_2021,Livestock,Adult,Female,155,Yes,None
+Rat197,Rattus_tanezumi,Sai_Kung,Horse_riding_school,Horse_riding_school,9_6_2021,Suburbs,Subadult,Male,45,None,Male
+Rat198,Rattus_norvegicus,Sheung_Shui,Pig_farm,Pig_farm,9_6_2021,Livestock,Adult,Male,246,Yes,Male
+Rat201,Rattus_tanezumi,Sai_Kung,Horse_riding_school,Horse_riding_school,10_6_2021,Suburbs,Subadult,Male,13,None,Male
+Rat222,Rattus_tanezumi,Sai_Kung,Horse_riding_school,Horse_riding_school,16_7_2021,Suburbs,Adult,Male,120,None,Male
+Rat225,Rattus_tanezumi,Sai_Kung,Horse_riding_school,Horse_riding_school,20_7_2021,Suburbs,Adult,Male,198,Yes,Male
+Rat226,Rattus_andamanensis_(Rattus_tanezumi_sladeni),Sai_Kung,Horse_riding_school,Horse_riding_school,20_7_2021,Suburbs,Adult,Male,209,Yes,Male
+Rat230,Rattus_andamanensis_(Rattus_tanezumi_sladeni),Sai_Kung,Horse_riding_school,Horse_riding_school,21_7_2021,Suburbs,Adult,Female,127,Yes,None
+Rat231,Rattus_tanezumi,Sai_Kung,Horse_riding_school,Horse_riding_school,27_7_2021,Suburbs,Adult,Female,48,None,None
+Rat236,Rattus_andamanensis_(Rattus_tanezumi_sladeni),Sai_Kung,Horse_riding_school,Horse_riding_school,10_8_2021,Suburbs,Adult,Female,140,None,None
+Rat237,Rattus_andamanensis_(Rattus_tanezumi_sladeni),Sai_Kung,Horse_riding_school,Horse_riding_school,11_8_2021,Suburbs,Adult,Male,158,None,Male
+Rat238,Rattus_norvegicus,Lo_Wu,Horse_riding_school,Horse_riding_school,13_8_2021,Suburbs,Subadult,Female,30,None,None

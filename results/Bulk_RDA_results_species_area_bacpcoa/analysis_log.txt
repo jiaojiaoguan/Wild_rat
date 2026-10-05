@@ -1,0 +1,240 @@
+=== Partial RDA: Bulk virus ~ Species + Area + Bac_PCoA1-3 ===
+Started: Mon Oct  5 16:13:18 2026 
+
+--- 1. Reading data ---
+[1mindexing[0m [34m53bulk_virus_map_bulk_sample_RPKM_normalized_data.tsv[0m [========================================================] [32m2.15GB/s[0m, eta: [36m 0s[0m                                                                                                                                                                               Bulk virus: 53 samples x 7355 vOTUs
+[1mindexing[0m [34mwild_rat_metadata.csv[0m [======================================================================================] [32m480.15MB/s[0m, eta: [36m 0s[0m                                                                                                                                                                               Shared X: 45 samples, cols: Species, Age_stage, Sex, Area, Bac_PCoA1, Bac_PCoA2, Bac_PCoA3, Shannon 
+
+--- 2. Aligning samples ---
+Common samples after exclusion: 45 
+
+X dimensions: 45 x 5 
+Species table:
+
+R. norvegicus   R. tanezumi 
+           22            23 
+Area table:
+
+City regions    Livestock      Suburbs 
+          20           15           10 
+
+--- 4. Bray-Curtis distance ---
+Distance range: 0.5382 1 
+
+--- 5. Full dbrda model ---
+Call: dbrda(formula = d ~ Species + Area + Bac_PCoA1 + Bac_PCoA2 + Bac_PCoA3, data = X)
+
+              Inertia Proportion Rank
+Total         18.8701     1.0000     
+Constrained    6.1279     0.3247    6
+Unconstrained 12.7422     0.6753   38
+Inertia is squared Bray distance 
+
+Eigenvalues for constrained axes:
+dbRDA1 dbRDA2 dbRDA3 dbRDA4 dbRDA5 dbRDA6 
+2.7498 1.0163 0.8229 0.7082 0.4741 0.3566 
+
+Eigenvalues for unconstrained axes:
+  MDS1   MDS2   MDS3   MDS4   MDS5   MDS6   MDS7   MDS8 
+0.8850 0.7246 0.5807 0.5393 0.5084 0.4813 0.4709 0.4511 
+(Showing 8 of 38 unconstrained eigenvalues)
+
+
+Full model AdjR2: 0.2181 (21.81%)
+
+--- 6a. Overall ANOVA ---
+Permutation test for dbrda under reduced model
+Permutation: free
+Number of permutations: 9999
+
+Model: dbrda(formula = d ~ Species + Area + Bac_PCoA1 + Bac_PCoA2 + Bac_PCoA3, data = X)
+         Df SumOfSqs      F Pr(>F)    
+Model     6   6.1279 3.0458  1e-04 ***
+Residual 38  12.7422                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+--- 6b. ANOVA by terms (sequential) ---
+Permutation test for dbrda under reduced model
+Terms added sequentially (first to last)
+Permutation: free
+Number of permutations: 9999
+
+Model: dbrda(formula = d ~ Species + Area + Bac_PCoA1 + Bac_PCoA2 + Bac_PCoA3, data = X)
+          Df SumOfSqs      F Pr(>F)    
+Species    1   2.3349 6.9631 0.0001 ***
+Area       2   1.7624 2.6280 0.0001 ***
+Bac_PCoA1  1   0.9021 2.6902 0.0001 ***
+Bac_PCoA2  1   0.7226 2.1551 0.0020 ** 
+Bac_PCoA3  1   0.4059 1.2104 0.1381    
+Residual  38  12.7422                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+--- 6c. ANOVA by margin (Type III) ---
+Permutation test for dbrda under reduced model
+Marginal effects of terms
+Permutation: free
+Number of permutations: 9999
+
+Model: dbrda(formula = d ~ Species + Area + Bac_PCoA1 + Bac_PCoA2 + Bac_PCoA3, data = X)
+          Df SumOfSqs      F Pr(>F)    
+Species    1   0.4430 1.3210 0.0762 .  
+Area       2   1.3197 1.9678 0.0003 ***
+Bac_PCoA1  1   0.8400 2.5051 0.0002 ***
+Bac_PCoA2  1   0.6815 2.0323 0.0022 ** 
+Bac_PCoA3  1   0.4059 1.2104 0.1381    
+Residual  38  12.7422                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+--- 6d. ANOVA by axis ---
+Permutation test for dbrda under reduced model
+Forward tests for axes
+Permutation: free
+Number of permutations: 9999
+
+Model: dbrda(formula = d ~ Species + Area + Bac_PCoA1 + Bac_PCoA2 + Bac_PCoA3, data = X)
+         Df SumOfSqs      F Pr(>F)    
+dbRDA1    1   2.7498 8.2005 0.0001 ***
+dbRDA2    1   1.0163 3.0307 0.0001 ***
+dbRDA3    1   0.8229 2.4540 0.0001 ***
+dbRDA4    1   0.7082 2.1119 0.0001 ***
+dbRDA5    1   0.4741 1.4140 0.0182 *  
+dbRDA6    1   0.3566 1.0634 0.3152    
+Residual 38  12.7422                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+--- 7. Drop-one nested tests ---
+Drop Species     AdjR2_red=0.2117  Delta=0.0064  F=1.321  p=0.0762
+Drop Area        AdjR2_red=0.1803  Delta=0.0378  F=1.968  p=0.0003
+Drop Bac_PCoA1   AdjR2_red=0.1879  Delta=0.0302  F=2.505  p=0.0002
+Drop Bac_PCoA2   AdjR2_red=0.1974  Delta=0.0207  F=2.032  p=0.0022
+Drop Bac_PCoA3   AdjR2_red=0.2139  Delta=0.0042  F=1.210  p=0.1381
+
+--- 8. Variance Partitioning (varpart) ---
+
+Partition of squared Bray distance in dbRDA 
+
+Call: varpart(Y = d, X = ~Species, ~Area, ~Bac_PCoA1 + Bac_PCoA2 + Bac_PCoA3, data = X)
+
+Explanatory tables:
+X1:  ~Species
+X2:  ~Area
+X3:  ~Bac_PCoA1 + Bac_PCoA2 + Bac_PCoA3 
+
+No. of explanatory tables: 3 
+Total variation (SS): 18.87 
+No. of observations: 45 
+
+Partition table:
+                      Df R.square Adj.R.square Testable
+[a+d+f+g] = X1         1  0.12373      0.10336     TRUE
+[b+d+e+g] = X2         2  0.09535      0.05227     TRUE
+[c+e+f+g] = X3         3  0.22905      0.17264     TRUE
+[a+b+d+e+f+g] = X1+X2  3  0.21713      0.15985     TRUE
+[a+c+d+e+f+g] = X1+X3  4  0.25480      0.18028     TRUE
+[b+c+d+e+f+g] = X2+X3  5  0.30127      0.21168     TRUE
+[a+b+c+d+e+f+g] = All  6  0.32474      0.21812     TRUE
+Individual fractions                                   
+[a] = X1 | X2+X3       1               0.00644     TRUE
+[b] = X2 | X1+X3       2               0.03784     TRUE
+[c] = X3 | X1+X2       3               0.05827     TRUE
+[d]                    0               0.00120    FALSE
+[e]                    0               0.01866    FALSE
+[f]                    0               0.10114    FALSE
+[g]                    0              -0.00542    FALSE
+[h] = Residuals                        0.78188    FALSE
+Controlling 1 table X                                  
+[a+d] = X1 | X3        1               0.00764     TRUE
+[a+f] = X1 | X2        1               0.10758     TRUE
+[b+d] = X2 | X3        2               0.03904     TRUE
+[b+e] = X2 | X1        2               0.05649     TRUE
+[c+e] = X3 | X1        3               0.07693     TRUE
+[c+f] = X3 | X2        3               0.15941     TRUE
+---
+Use function ‘dbrda’ to test significance of fractions of interest
+
+Fractions (rows): [a] = X1 | X2+X3 | [b] = X2 | X1+X3 | [c] = X3 | X1+X2 | [d] | [e] | [f] | [g] | [h] = Residuals 
+Using column: Adj.R.square 
+
+=== Variance Partitioning (Adj R^2) ===
+  [a] Pure Species            0.0064  (  0.64%)
+  [b] Pure Area               0.0378  (  3.78%)
+  [c] Pure Bac_PCoA           0.0583  (  5.83%)
+  [d] Shared Sp&Ar            0.0012  (  0.12%)
+  [e] Shared Ar&Bac           0.0187  (  1.87%)
+  [f] Shared Sp&Bac           0.1011  ( 10.11%)
+  [g] Shared Sp&Ar&Bac       -0.0054  ( -0.54%)
+  [h] Residuals               0.7819  ( 78.19%)
+  TOTAL EXPLAINED             0.2181  ( 21.81%)
+
+--- 8b. Plotting Venn diagram ---
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+Venn diagrams saved.
+
+--- 9. Significance of pure (testable) fractions ---
+
+[a] Pure Species | Area+Bac:
+Permutation test for dbrda under reduced model
+Permutation: free
+Number of permutations: 9999
+
+Model: dbrda(formula = d ~ Species + Condition(Area + Bac_PCoA1 + Bac_PCoA2 + Bac_PCoA3), data = X)
+         Df SumOfSqs     F Pr(>F)  
+Model     1    0.443 1.321 0.0192 *
+Residual 38   12.742               
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[b] Pure Area | Species+Bac:
+Permutation test for dbrda under reduced model
+Permutation: free
+Number of permutations: 9999
+
+Model: dbrda(formula = d ~ Area + Condition(Species + Bac_PCoA1 + Bac_PCoA2 + Bac_PCoA3), data = X)
+         Df SumOfSqs      F Pr(>F)    
+Model     2   1.3197 1.9678  1e-04 ***
+Residual 38  12.7422                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[c] Pure Bac  | Species+Area:
+Permutation test for dbrda under reduced model
+Permutation: free
+Number of permutations: 9999
+
+Model: dbrda(formula = d ~ Bac_PCoA1 + Bac_PCoA2 + Bac_PCoA3 + Condition(Species + Area), data = X)
+         Df SumOfSqs      F Pr(>F)    
+Model     3   2.0306 2.0185  1e-04 ***
+Residual 38  12.7422                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+--- 10. Biplot scores ---
+                        dbRDA1      dbRDA2
+SpeciesR. tanezumi  0.90281929  0.02030778
+AreaLivestock      -0.12119178  0.65137820
+AreaSuburbs         0.14674775  0.39476958
+Bac_PCoA1          -0.99035938 -0.08984290
+Bac_PCoA2          -0.01628386  0.34087998
+Bac_PCoA3          -0.12877059  0.58907099
+
+--- 11. RDA triplot ---
+null device 
+          1 
+null device 
+          1 
+Triplot saved:
+   C:/Users/jiaojguan2/WorkBuddy/Claw/Rat_virus_analysis/github_code/03_dbRDA_variance_partitioning/../figures/Bulk_rda_triplot.pdf 
+   C:/Users/jiaojguan2/WorkBuddy/Claw/Rat_virus_analysis/github_code/03_dbRDA_variance_partitioning/../figures/Bulk_rda_triplot.png 
+
+=== Analysis complete:  Mon Oct  5 16:13:32 2026  ===

@@ -1,0 +1,10 @@
+"Fraction","AdjR2","Pct"
+"[a] Pure Species",0.006435,0.64
+"[b] Pure Area",0.037837,3.78
+"[c] Pure Bac_PCoA",0.058271,5.83
+"[d] Shared Sp&Ar",0.001203,0.12
+"[e] Shared Ar&Bac",0.018656,1.87
+"[f] Shared Sp&Bac",0.101142,10.11
+"[g] Shared Sp&Ar&Bac",-0.005425,-0.54
+"[h] Residuals",0.78188,78.19
+"SUM Explained [a..g]",0.21812,21.81
